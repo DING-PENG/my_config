@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/Users/peng/Development/sci/moea/src'
+let g:netrw_dirhist_2='/Users/peng/Development/web/flask/cwmaster/.git'
+let g:netrw_dirhist_3='/Users/peng/Development/web/flask/cwmaster/app/templates'
+let g:netrw_dirhist_4='/Users/peng/.vim/bundle'
+let g:netrw_dirhist_5='/Users/peng/.ipython'
+let g:netrw_dirhist_6='/Users/peng/Courses/PL/Ada/tutorial/compute'
+let g:netrw_dirhist_7='/Users/peng/.vim'
+let g:netrw_dirhist_8='/Users/peng/.vim/bundle/python'
+let g:netrw_dirhist_9='/Users/peng/.vim/bundle/python/template'
