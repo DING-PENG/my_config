@@ -6,6 +6,7 @@ alias dev='cd ~/Development/'
 alias cou='cd ~/Courses/'
 alias catn='cat -n'
 alias sub='/Applications/Sublime\ Text\ 2.app/Contents/MacOS/Sublime\ Text\ 2'
+alias racketx='racket -il xrepl'
 
 export PYTHONSTARTUP="$(python -m jedi repl)"
 
