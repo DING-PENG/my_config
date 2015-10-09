@@ -6,8 +6,8 @@ export ZSH=/Users/peng/.oh-my-zsh
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 #ZSH_THEME="robbyrussell"
-ZSH_THEME="half-life"
-#ZSH_THEME="bullet-train"
+ZSH_THEME="half-life2"
+#ZSH_THEME="powerline"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -96,6 +96,9 @@ alias cou='cd ~/Courses/'
 alias catn='cat -n'
 alias racketx='racket -il xrepl'
 
-
 [[ -s ~/.autojump/etc/profile.d/autojump.sh ]] && . ~/.autojump/etc/profile.d/autojump.sh
 eval $(thefuck --alias)
+
+if [[ -r /usr/local/lib/python2.7/dist-packages/powerline/bindings/zsh/powerline.zsh ]]; then
+        source /usr/local/lib/python2.7/dist-packages/powerline/bindings/zsh/powerline.zsh
+    fi
