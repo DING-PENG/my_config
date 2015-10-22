@@ -95,6 +95,7 @@ alias dev='cd ~/Development/'
 alias cou='cd ~/Courses/'
 alias catn='cat -n'
 alias racketx='racket -il xrepl'
+alias sed='gsed'
 
 [[ -s ~/.autojump/etc/profile.d/autojump.sh ]] && . ~/.autojump/etc/profile.d/autojump.sh
 eval $(thefuck --alias)
