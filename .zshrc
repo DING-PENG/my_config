@@ -55,8 +55,7 @@ plugins=(git autojump sublime zsh-syntax-highlighting)
 
 # User configuration
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin
-:/usr/local/gnat/bin:/Applications/Racket v6.2.1/bin"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/gnat/bin:/Applications/Racket v6.2.1/bin:/usr/local/smlnj/bin"
 #export GNATPATH="/usr/local/gnat/bin"
 #export RACKETPATH="/Applications/Racket\ v6.2.1/bin"
 export PYTHONSTARTUP="$(python -m jedi repl)"
