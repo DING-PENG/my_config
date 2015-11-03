@@ -94,6 +94,7 @@ alias catn='cat -n'
 alias racketx='racket -il xrepl'
 alias rsml='rlwrap sml'
 alias sed='gsed'
+alias showargs='/Users/peng/Courses/OST/experiment/showargs'
 
 [[ -s ~/.autojump/etc/profile.d/autojump.sh ]] && . ~/.autojump/etc/profile.d/autojump.sh
 eval $(thefuck --alias)
