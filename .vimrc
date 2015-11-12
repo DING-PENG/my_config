@@ -10,7 +10,7 @@ let g:mapleader=","
 " === #2 界面：颜色/窗口分割 ===
 
 set t_Co=256
-colorscheme desert       " 配色方案（可用:highlight查看配色方案细节）desert
+colorscheme mydesert       " 配色方案（可用:highlight查看配色方案细节）desert
 set cursorline              " 高亮显示当前行列
 "set cursorcolumn
 hi CursorLine cterm=NONE ctermbg=238
