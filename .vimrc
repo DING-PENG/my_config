@@ -99,7 +99,7 @@ map <C-n> :NERDTreeToggle<CR>
 
 "python new
 function HeaderPy()
-    call setline(1, "#!/usr/bin/env python")
+    call setline(1, "#!/usr/bin/python")
     call append(1, "# -*- coding: utf-8 -*-")
     call append(2, "# Peng Ding @ ".strftime('%Y-%m-%d %T', localtime()))
     normal G
