@@ -51,11 +51,11 @@ ZSH_THEME="half-life2"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git autojump sublime zsh-syntax-highlighting)
+plugins=(git autojump sublime sudo zsh-syntax-highlighting d extract web-search zsh-autosuggestions)
 
 # User configuration
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/gnat/bin:/Applications/Racket v6.2.1/bin:/usr/local/smlnj/bin"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/gnat/bin:/Applications/Racket v6.2.1/bin:/usr/local/smlnj/bin:/Users/peng/Courses/NLP/jet-150509/bin"
 export PYTHONSTARTUP="$(python -m jedi repl)"
 export TERM="xterm-256color"
 
@@ -96,6 +96,9 @@ alias rsml='rlwrap sml'
 alias sed='gsed'
 alias date='gdate'
 alias showargs='/Users/peng/Courses/OST/experiment/showargs'
+alias py='python'
+
+export JET_HOME='/Users/peng/Courses/NLP/jet-150509'
 
 [[ -s ~/.autojump/etc/profile.d/autojump.sh ]] && . ~/.autojump/etc/profile.d/autojump.sh
 eval $(thefuck --alias)
@@ -103,3 +106,6 @@ eval $(thefuck --alias)
 if [[ -r /usr/local/lib/python2.7/dist-packages/powerline/bindings/zsh/powerline.zsh ]]; then
         source /usr/local/lib/python2.7/dist-packages/powerline/bindings/zsh/powerline.zsh
     fi
+
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
