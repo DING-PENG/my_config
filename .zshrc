@@ -1,13 +1,14 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/peng/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 #ZSH_THEME="robbyrussell"
-ZSH_THEME="half-life2"
+#ZSH_THEME="half-life2"
 #ZSH_THEME="powerline"
+ZSH_THEME="robbyrussell2"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -51,7 +52,7 @@ ZSH_THEME="half-life2"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git autojump sublime sudo zsh-syntax-highlighting d extract web-search zsh-autosuggestions)
+plugins=(git autojump sublime zsh-syntax-highlighting d extract web-search zsh-autosuggestions)
 
 # User configuration
 
@@ -97,6 +98,11 @@ alias sed='gsed'
 alias date='gdate'
 alias showargs='/Users/peng/Courses/OST/experiment/showargs'
 alias py='python'
+alias ipy='ipython'
+alias pdflatex='/Library/TeX/texbin/pdflatex'
+
+#NYU CS
+alias cims="ssh pd1253@access.cims.nyu.edu"
 
 export JET_HOME='/Users/peng/Courses/NLP/jet-150509'
 

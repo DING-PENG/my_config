@@ -38,7 +38,7 @@ if has("autocmd")
     autocmd FileType javascript setlocal ts=2 sts=2 sw=2 noexpandtab
     autocmd FileType css setlocal ts=2 sts=2 sw=2 expandtab
     autocmd FileType less setlocal ts=2 sts=2 sw=2 expandtab
-    autocmd FileType html setlocal ts=4 sts=4 sw=4 noexpandtab
+    autocmd FileType html setlocal ts=2 sts=2 sw=2 noexpandtab
     autocmd FileType qmt setlocal ts=4 sts=4 sw=4 noexpandtab
     autocmd FileType php setlocal ts=4 sts=4 sw=4 expandtab
 endif
@@ -99,7 +99,7 @@ map <C-n> :NERDTreeToggle<CR>
 
 "python new
 function HeaderPy()
-    call setline(1, "#!/usr/bin/python")
+    call setline(1, "#!/usr/bin/env python")
     call append(1, "# -*- coding: utf-8 -*-")
     call append(2, "# Peng Ding @ ".strftime('%Y-%m-%d %T', localtime()))
     normal G
