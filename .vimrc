@@ -53,7 +53,7 @@ else
 endif
 
 " ruler
-set cc=80
+set cc=81
 highlight ColorColumn ctermbg=lightgray
 
 " === #4 编辑：光标定位/搜索 ===
