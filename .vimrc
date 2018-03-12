@@ -90,6 +90,8 @@ nmap ws :split<cr>
 nmap wv :vsplit<cr>                                                                                                     
 nmap wc :close<cr>
 
+"toggle line number
+nmap <C-l> :set nu!<CR>
 
 "nerdTree
 map <C-n> :NERDTreeToggle<CR>
