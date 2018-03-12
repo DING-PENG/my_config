@@ -52,6 +52,10 @@ else
     set guifont=Monospace\ 10
 endif
 
+" ruler
+set cc=80
+highlight ColorColumn ctermbg=lightgray
+
 " === #4 编辑：光标定位/搜索 ===
 set ignorecase              " 搜索忽略大小写
 set incsearch               " 即时搜索
